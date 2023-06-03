@@ -66,8 +66,12 @@ body {
   cursor: pointer;
 }
 .input{
-  justify-content: center;
+  position: relative;
   display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .search-submit:hover {
